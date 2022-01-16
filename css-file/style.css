@@ -42,10 +42,12 @@ a {
   height: 414px;
   left: 841px;
   top: 213px;
-  background: url();
 }
-.main-camera :hover {
+.main-camera:hover {
+  transform: scale(1.1) rotate(60deg);
+  transition: transform 2s ease-in-out;
 }
+
 section {
   display: grid;
   position: absolute;
@@ -53,11 +55,17 @@ section {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   border-radius: 10px;
+
   box-shadow: 5px slategray;
   height: 1660px;
   width: 1050px;
   left: 209px;
   top: 953px;
+}
+#border {
+  border: 2px solid;
+  width: 300px;
+  border-radius: 5px;
 }
 .fa-star.filled {
   color: orange;
@@ -79,7 +87,7 @@ section {
   width: 99px;
   height: 23.96px;
   left: 900px;
-  top: 1820px;
+  top: 1860px;
   color: #e02c6d;
   text-decoration: none;
 }
@@ -90,4 +98,8 @@ footer {
   height: 139px;
   left: 589px;
   top: 3117px;
+  text-align: center;
+}
+.fab {
+  margin-right: 10px;
 }
