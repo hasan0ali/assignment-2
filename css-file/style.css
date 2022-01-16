@@ -1,0 +1,93 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background: #aaaaaa;
+}
+/* Header Style */
+h3 {
+  position: absolute;
+  left: 8%;
+  right: 75%;
+  top: 3%;
+  bottom: 95%;
+  color: #3a3a3a;
+}
+/* Pragrap */
+.pragrap {
+  position: absolute;
+  width: 583.54px;
+  height: 269.39px;
+  left: 137.54px;
+  top: 287px;
+}
+a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 24px;
+  position: absolute;
+  width: 196px;
+  height: 44px;
+  left: 137px;
+  top: 350px;
+  background: #ee88ac;
+  border-radius: 41px;
+}
+.main-camera {
+  position: absolute;
+  width: 425px;
+  height: 414px;
+  left: 841px;
+  top: 213px;
+  background: url();
+}
+.main-camera :hover {
+}
+section {
+  display: grid;
+  position: absolute;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  border-radius: 10px;
+  box-shadow: 5px slategray;
+  height: 1660px;
+  width: 1050px;
+  left: 209px;
+  top: 953px;
+}
+.fa-star.filled {
+  color: orange;
+}
+.fa-star.empty {
+  color: white;
+}
+
+.title {
+  text-align: center;
+  position: absolute;
+  width: 262px;
+  height: 69.87px;
+  left: 601px;
+  top: 850px;
+}
+.see-more {
+  position: absolute;
+  width: 99px;
+  height: 23.96px;
+  left: 900px;
+  top: 1820px;
+  color: #e02c6d;
+  text-decoration: none;
+}
+/* footer section */
+footer {
+  position: absolute;
+  width: 300px;
+  height: 139px;
+  left: 589px;
+  top: 3117px;
+}
